@@ -1,0 +1,44 @@
+.body {
+    display: flex;
+}
+.productosContainer {
+    justify-self: center;
+    display: grid;
+    grid-template-columns: repeat(4, 256px)
+}
+
+.producto {
+    display: flex;
+    flex-direction: column;
+    width: 256px;
+    text-align: center;
+    padding: 10px;
+}
+
+.producto img {
+    min-width: 256px;
+    min-height: 256px;
+    max-width: 256px;
+    max-height: 256px;
+}
+
+.producto h2 {
+    height: 64px;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+#precio {
+    height: 24px;
+    overflow: hidden;
+}
+
+#descripcion {
+    height: 272px;
+    overflow: hidden;
+}
+
+.producto button {
+    width: max-content;
+    height: 32px;
+}
